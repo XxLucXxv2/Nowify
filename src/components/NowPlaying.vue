@@ -19,7 +19,7 @@
     </div>
     <div v-else class="now-playing" :class="getNowPlayingClass()">
       <h1 class="now-playing__idle-heading">No music is playing 😔</h1>
-      <a style="text-align: left;" class="now-playing__idle-heading" href="https://open.spotify.com">Go to Spotify</a>
+      <a style="text-align: right;" class="now-playing__idle-heading" href="https://open.spotify.com">Go to Spotify</a>
     </div>
   </div>
 </template>
